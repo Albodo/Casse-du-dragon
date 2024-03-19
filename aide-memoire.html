@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Casse du dragon" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://albodo.github.io/Casse-du-dragon/" />
+    <meta property="og:image" content="https://albodo.github.io/Casse-du-dragon//images/background.jpg" />
+    <meta property="og:description" content="Bienvenue à Eauprofonde, la Couronne du Nord, où une merveilleuse histoire d'aventure urbaine est sur le point de se dérouler.">
+    <title>Casse du dragon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  
+  <body>
+    <div style="background-image: url('./images/background.jpg'); background-size: cover; opacity:0.7">
+      <div class="container px-4 py-5">
+        <h1 class="pb-2 border-bottom text-white">Aide-mémoire</h1>
+        <p class="mt-4 text-white">Jouer à Donjons et Dragons sans se casser le melon.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <header class="d-flex justify-content-start py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html#journal" class="nav-link">Journal</a></li>
+          <li class="nav-item"><a href="index.html#personnages" class="nav-link">Personnages</a></li>
+          <li class="nav-item"><a href="index.html#amicaux" class="nav-link">Visages amicaux</a></li>
+          <li class="nav-item"><a href="index.html#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><li class="nav-item"><a href="#" class="nav-link text-dark border-top border-bottom border-start border-end">Aide-mémoire</a></li>
+        </ul>
+      </header>
+    </div>
+
+   
+
+    <div id="personnages" class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="pb-2 border-bottom">Les trois types de test</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Test (ou jet)</p>
+                <p class="card-text fs-5">
+                  Pour déterminer si une action est réussie, le MJ exige un test de caractéristique. Tous les tests de caractéristique commencent par la même formule.
+                </p>
+                <p class="card-text fs-5 text-primary"><small>1d20 + Modificateur de caractéristique</small></p>
+                <p class="card-text fs-5">Les caractéristiques sont Force, Dextérité, Constitution, Intelligence, Sagesse et Charisme, et les modificateurs au niveau 1 varient habituellement entre -1 et +3.</p>
+              </div>
+            </div>
+          </div>       
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Jet d'habileté</p>
+                <p class="card-text fs-5">
+                  Le jet d'habileté peut être effectué seul (ex. Jet de Force, jet de Dextérité) ou s'accompagner d'une <em>compétence</em> (jet de Force (Athlétisme) ou Intelligence (Nature), par exemple). Dans le cas où un personnage a une <b>formation</b> dans la compétence spécifiée, on ajoute le modificateur de formation au jet. Celui-ci est de +2 au niveau 1.
+                </p>
+                <p class="card-text fs-5 text-primary"><small>1d20 + Modificateur de caractéristique + Modificateur de formation</small></p>
+                <p class="card-text fs-5">Les compétences dans lesquelles un personnage est formé sont marquées d'un cercle noir sur sa feuille d'un personnage. Un double cercle noir signifie qu'on ajoute deux fois le bonus de formation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Jet de sauvegarde</p>
+                <p class="card-text fs-5">
+                  Le jet de sauvegarde sert à résister à un mauvais sort ou à un danger immédiat. Chaque classe spécifie dans quelles caractéristiques un personnage est formé: par exemple les barbares ajoutent leur modificateur de formation aux jets de sauvegarde de Force et de Constitution.
+                </p>
+                <p class="card-text fs-5 text-primary"><small>1d20 + Modificateur de caractéristique + Modificateur de formation</small></p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Jet d'attaque</p>
+                <p class="card-text fs-5">
+                  Le jet d'attaque est un jet spécial qui s'oppose toujours à la Classe d'armure de la cible. Pour ajouter son modificateur de formation à un jet d'attaque, il faut être formé dans l'usage de l'arme avec laquelle l'attaque est portée.
+                </p>
+                <p class="card-text fs-5 text-primary"><small>1d20 + Modificateur de caractéristique + Modificateur de formation</small></p>
+                <p class="card-text fs-5">Les attaques d'armes au corps à corps se font avec la Force, sauf si l'arme a le mot-clé <b>Finesse</b> auquel cas on utilise plutôt la dextérité. Les attaques de sorts utilisent l'Intelligence, la Sagesse ou le Charisme, selon la classe du lanceur de sorts.</p>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>
+
+    <div id="personnages" class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="pb-2 border-bottom">L'économie d'action</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Action</p>
+                <p class="card-text fs-5">
+                  Un personnage dispose d'une seule action lors de son tour d'initiative. L'action peut servir à:
+                </p>
+                <p class="card-text fs-5">Attaquer | Lancer un sort | Courir | Se désengager | Esquiver | Aider | Se cacher | Préparer une action | Fouiller | Utiliser un objet</p>
+                
+              </div>
+            </div>
+          </div>       
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Mouvement</p>
+                <p class="card-text fs-5">
+                  Durant son tour, le personnage peut se déplacer de sa <b>vitesse de déplacement (VD)</b>. Ce déplacement peut avoir lieu avant ou après son action, ou même en partie avant et après. Si le personnage souhaite se déplacer davantage, il ou elle doit utiliser l'action <b>Courir</b> qui double sa VD.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Action bonus</p>
+                <p class="card-text fs-5">
+                  Certaines actions sont très rapides et prennent un seul instant à effectuer. Chaque personnage a droit à 1 action bonus par round. Certains sorts comme <em>Foulée brumeuse</em> ou <em>Shillelagh</em> ont un temps d'incantation de 1 action bonus (1BA). On peut également utiliser une action bonus pour effectuer une 2e attaque si on manie simultanément deux armes légères. La plupart des actions bonus sont des aptitudes spécifiques à chaque classe.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Réaction</p>
+                <p class="card-text fs-5">
+                  Les réactions sont des actions spéciales qui s'effectuent dans le tour de quelqu'un d'autre. Chaque personnage dispose d'une réaction par round et doit ensuite attendre que son tour revienne dans l'initiative pour que cette action soit rechargée.
+                </p>
+                <p class="card-text fs-5">Les réactions les plus courantes sont l'attaque d'opportunité (lorsqu'un personnage quitte la portée de corps-à-corps d'un ennemi sans avoir pris l'action de Se Désengager) ou le déclanchement d'une action préparée.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Récapitulatif</p>
+                <p class="card-text fs-5">
+                  Durant un round d'initiative, chaque personnage a une Action (A), une Action bonus (BA), une réaction (R) et une certaine quantité de mouvement.
+                </p>
+               </div>
+            </div>
+          </div>
+                 
+        </div>
+      </div>
+    </div>
+
+    <div id="personnages" class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="pb-2 border-bottom">Mourir et guérir</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Points de vie</p>
+                <p class="card-text fs-5">
+                  Un personnage dispose d'un certain nombre de points de vie. Chaque blessure subie retranche un certain nombre de points de vie. Quand il n'en a plus, il devient mourant. Il est impossible de tomber en bas de 0 point de vie.
+                </p>
+              </div>
+            </div>
+          </div>       
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Mourir sur le coup</p>
+                <p class="card-text fs-5">
+                  Si le personnage subit d'un seul coup assez de dégâts pour que l'excédant (en bas de 0 pv) dépasse son maximum de point de vie, il meurt sur le coup. Par exemple, si Steve a un maximum de 8 pv, mais est actuellement à 2 pv et reçoit un coup d'épée qui lui inflige 10 points de dégâts, Steve meurt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Être mourant</p>
+                <p class="card-text fs-5">
+                  À chaque tour passé à 0 pv, un personange mourrant doit lancer 1d20. Entre 10 et 19, c'est un succès. 3 succès sont nécessaires pour être <b>stabilisé</b>. Un personnage stabilisé reprend conscience après 1d4 heures.  
+                </p>
+                <p class="card-text fs-5">
+                  Entre 2 et 9, c'est un échec. Après 3 échecs, le personnage meurt. Un jet de 1 signifie 2 échecs immédiats, tandis que sur un jet de 20, le personnage reprend immédiatement conscience à 1 pv.</p>
+                  <p class="card-text fs-5">Un personnage mourant qui prend des dégâts accumule instantanément 1 ou 2 échecs supplémentaires, selon que l'attaque est un coup critique ou non.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Repos court</p>
+                <p class="card-text fs-5">
+                  Un personnage qui prend 1 heure pour se reposer peut dépenser ses <b>dés de vie</b>. Un personnage a autant de dés de vie qu'il ou elle a de niveaux, et la nature du dé dépend de sa classe. Par exemple, un magicien niveau 3 dispose de 3d4. Le personnage chosit le nomre de dés à dépenser au moment de prendre son repos et y ajoute son modificateur de constitution. Il regagne ensuite ce nombre en poinst de vie.  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Repos long</p>
+                <p class="card-text fs-5">
+                  Un repos long prend 8 heures et implique de dormir au moins 6 heures. Un personnage qui prend un repos long regagne tous ses points de vie et la moitié de ses points de vie dépensés.
+                </p>
+               </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="card-text">Repos long</p>
+                <p class="card-text fs-5">
+                  D'autres règles (niveaux d'épuisement, points de vie temporaire, résistance et vulnérabilités, etc.) peuvent s'appliquer. Demandez à votre gentil MJ au besoin.</p>
+               </div>
+            </div>
+          </div>
+                 
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script href="./scripts.js" charset="utf-8"></script>
+  </body>
+</html>
